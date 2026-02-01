@@ -6,7 +6,7 @@ def checkout_logic():
 
     events = db.execute("SELECT fee FROM events").fetchall()
 
-    # Uncomment this line initially for the crash screenshot task
+    # #Uncomment this line initially for the crash screenshot task
     # 1 / 0
 
     total = 0

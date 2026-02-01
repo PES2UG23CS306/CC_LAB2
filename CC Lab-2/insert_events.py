@@ -1,7 +1,7 @@
 from database import get_db
 
 db = get_db()
-
+ 
 # create table if not exists
 db.execute("""
 CREATE TABLE IF NOT EXISTS events (

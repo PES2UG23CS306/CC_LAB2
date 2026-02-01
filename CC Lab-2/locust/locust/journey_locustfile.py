@@ -7,7 +7,7 @@ class FestJourneyUser(HttpUser):
     def journey(self):
         user = "locust_user"
 
-        # browse events
+        # browse events 
         self.client.get(f"/events?user={user}")
 
         # register for event id 1 (must exist)
